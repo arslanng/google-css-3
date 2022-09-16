@@ -1,0 +1,248 @@
+body{
+    background-color: #202124;
+}
+.buttons{
+    width: 330px;
+    margin: 4px auto;
+}
+.button1{
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 40px;
+    /* border: 1px solid;
+    background-color: #F2f2f2; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: #5F6368; */
+    color: #e8eaed;
+    font-size: 14px;
+    height: 36px;
+    margin: 7px;
+    
+}
+.button1:hover{
+    background-color: #30313400;
+    border: 1px solid #30313400;
+    cursor: pointer;
+
+}
+.logo{
+    padding: 6px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 35px;
+    /* float: left; */
+    
+}
+.goxjub{
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+    cursor: pointer;
+    float: right;
+    margin-top: -63px;
+    display: flex;
+    
+}
+.prf-img{
+    border-radius: 50px;
+    /* border:#dadce0 2px solid; */
+    padding: 5px;
+    /* float: left; */
+    margin-left: 35px;
+}
+.header {
+    width: 18%;
+    float: right;
+    list-style-type: none;
+    margin: 10px;
+    overflow: hidden;
+    font-family: arial,sans-serif;
+    font-size: 20px;
+    text-align: center;
+    /* display: table; alt grupta metin yüksekliğini ortalayabilmek için gerekli */
+    display: table;
+}
+.nb-text{
+    color: white;
+    text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+    /* display: table-cell;
+    vertical-align: middle; 
+    metin yüksekliğini ortalamak için */
+}
+.nb-text:hover{
+    text-decoration: underline;
+}
+.clearfix{
+    clear: both;
+  }
+  
+  .headerli a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+  }
+  
+  .headerli a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    text-align: center;
+    margin: 100px;
+  }
+  
+  .search-area {
+    /* background: #fff; */
+    background-color: #202124;
+    display: flex;
+    border: 1px solid #bdc1c6;
+    box-shadow: none;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: -77px;
+    width: 582px;
+    border-radius: 20px;
+  }
+  
+  .search-area:hover {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+  }
+  
+  .search {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+  }
+  
+  .search-img {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+  }
+  
+  .search-img span {
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+  }
+  
+  .input-enter {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    
+  }
+  
+  .input-area {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    display: block;
+    
+
+    
+  }
+  
+  .input {
+    background-color: #202124;
+    margin: 0;
+    padding: 0;
+    color: white;
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -68px;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: textfield;
+    cursor: text;
+    border: none;
+  }
+  
+  .googlesearch {
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    
+  }
+  
+  .feelinglucky {
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.ft{
+    width: 97%;
+    height: 16px;
+    border: black 2px solid;
+    /* position: fixed;
+    bottom: 0; */
+    margin: 0 auto;
+    /* float: inline-end; */
+    bottom: 10px;
+    position: absolute;
+    padding: 20px;
+}
+  .f1{
+    text-decoration: none;
+    font-size: 16px;
+    width: 50%;
+    float: left;
+    /* margin: 0 auto; */
+    
+}
+.f2{
+    font-size: 15px;
+    width: 50%;
+    float: left;
+    /* margin: 0 auto; */
+    text-align: right;
+  }
+
+.link{
+    color: #d1d7dccd;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0px 10px
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+    
+    
+ 
+ 
